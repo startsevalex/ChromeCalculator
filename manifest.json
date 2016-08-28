@@ -1,0 +1,23 @@
+{
+  "manifest_version": 2,
+
+  "name": "Simple Calculator",
+
+  "description": "Startsev Apps",
+
+  "version": "1.0",
+
+  "icons": {
+    "64":"64.png",
+  },
+
+  "permissions": [
+    "file:///C:/Users/1/Desktop/Web/Calculator/index.html"
+  ],
+
+  "browser_action": {
+    "default_title": "Run Calculator",
+    "default_icon": "64.png",
+    "default_popup": "popup.html"
+  }
+}
